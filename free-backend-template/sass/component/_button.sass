@@ -1,0 +1,30 @@
+.btn
+  position: relative
+
+  &.add, &.edit, &.delete, &.search, &.messages, &.logout
+    padding-left: 22px
+
+  &.add:before
+    @extend .icon
+
+  &.edit:before
+    @extend .icon
+    background-position: -64px -112px
+
+  &.delete:before
+    @extend .icon
+    background-position: -176px -96px
+
+  &.search:before
+    @extend .icon
+    background-position: -160px -112px
+
+  &.messages:before
+    @extend .icon
+    background-position: -80px -96px
+
+  &.logout:before
+    @extend .icon
+    background-position: 0 -176px
+
+button.btn

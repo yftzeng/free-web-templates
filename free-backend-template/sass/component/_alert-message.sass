@@ -1,0 +1,31 @@
+.alert-message
+  font-size: 1em
+  line-height: 150%
+  position: relative
+  padding-left: 30px
+
+  &:before
+    content: ""
+    position: absolute
+    top: 50%
+    left: 10px
+    width: 16px
+    height: 16px
+    margin-top: -8px
+    z-index: 999
+
+  &.warning:before
+    background-image: url("../css/theme/images/ui-icons_2e83ff_256x240.png")
+    background-position: -16px -144px
+
+  &.error:before
+    background-image: url("../css/theme/images/ui-icons_f6cf3b_256x240.png")
+    background-position: 0 -144px
+
+  &.success:before
+    background-image: url("../css/theme/images/ui-icons_454545_256x240.png")
+    background-position: -64px -144px
+
+  &.info:before
+    background-image: url("../css/theme/images/ui-icons_222222_256x240.png")
+    background-position: -32px -144px

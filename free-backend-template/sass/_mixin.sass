@@ -1,0 +1,31 @@
+=panel-header
+  min-height: 30px
+  color: #333
+  font-size: 13px
+  line-height: 30px
+  overflow: visible
+  +border-radius(4px 4px 0 0)
+  +background(linear-gradient(center top , #fff, #fff 25%, #e6e6e6), #e6e6e6)
+  background-repeat: no-repeat
+  border-color: #ccc #ccc #bbb
+  border-style: solid
+  border-width: 1px
+  +box-shadow(0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05))
+  +text-shadow(0 1px 1px rgba(255, 255, 255, 0.75))
+
+=panel-content
+  padding: 10px
+  border: 1px solid #ccc
+  border-color: #ccc #ccc #bbb
+  border-top: none
+  margin-bottom: 2px
+  margin-top: -2px
+  +border-radius(0 0 4px 4px)
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05)
+
+=my-clearfix
+  content: "."
+  display: block
+  height: 0
+  clear: both
+  visibility: hidden

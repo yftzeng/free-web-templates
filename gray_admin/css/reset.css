@@ -1,0 +1,86 @@
+/*-------------------------RESET--------------------------*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0;}body{line-height:1;font-family:Arial, sans-serif;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:none;}:focus{outline:0;}ins{text-decoration:none;}del{text-decoration:line-through;}table{border-collapse:collapse;border-spacing:0;}
+/*-------------------------RESET--------------------------*/
+
+/*--------------------------GRID--------------------------*/
+.col {float:left;margin:0 0 10px;}
+.col.w1 {width:10%;}
+.col.w2 {width:20%;}
+.col.w3 {width:30%;}
+.col.w4 {width:40%;}
+.col.w5 {width:50%;}
+.col.w6 {width:60%;}
+.col.w7 {width:70%;}
+.col.w8 {width:80%;}
+.col.w9 {width:90%;}
+.col.w10 {width:100%;}
+.col.w1 .content,
+.col.w1 .content,
+.col.w2 .content,
+.col.w3 .content,
+.col.w4 .content,
+.col.w5 .content,
+.col.w6 .content,
+.col.w7 .content,
+.col.w8 .content,
+.col.w9 .content {padding:0 10px 0 0;}
+.col.w10 .content {padding:0;}
+.col.w1.last .content,
+.col.w1.last .content,
+.col.w2.last .content,
+.col.w3.last .content,
+.col.w4.last .content,
+.col.w5.last .content,
+.col.w6.last .content,
+.col.w7.last .content,
+.col.w8.last .content,
+.col.w9.last .content {padding:0;}
+.col.bottomlast {margin:0;}
+/*--------------------------GRID--------------------------*/
+
+/*--------------------------This is for the help page, you can delete me--------------------------*/
+.demobg {padding:0 0 20px}
+.demobg .col .content p {background:#f0f0f0;padding:10px}
+.help {
+padding:0 0 20px;
+margin:0 0 40px;
+border-bottom:1px solid #f0f0f0;
+}
+.module .dropdown.help_index {
+width:600px;
+}
+.help_index .col a {
+text-decoration:none;
+font-weight:bold;
+font-size:14px;
+line-height:18px;
+}
+.help_index .col a span {
+font-weight:normal;
+font-size:12px;
+color:#dbdbdb;
+display:block;
+margin:0 10px 10px 0;
+}
+.shelf .articles a {
+width:91px;
+text-align:left;
+margin:0 auto;
+background:url(../images/document.png) no-repeat center bottom;
+}
+.shelf .articles a span {
+display:block;
+padding:10px 5px 5px 5px;
+font-size:11px;
+line-height:15px;
+font-weight:bold;
+text-align:left;
+}
+.shelf .articles a small {
+font-size:8px;
+line-height:12px;
+text-align:left;
+padding:0 5px;
+display:block;
+}
+/*--------------------------This is for the help page, you can delete me--------------------------*/
