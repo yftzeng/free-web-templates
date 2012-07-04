@@ -7,8 +7,8 @@
 <tr>
     <th>Project</th>
     <th>Type</th>
-    <th>URL</th>
     <th>License</th>
+    <th>URL</th>
 </tr>
 </thead>
 <tbody>
