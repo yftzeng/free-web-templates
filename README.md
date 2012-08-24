@@ -108,6 +108,12 @@
     <td>Unlicense, Public Domain, MIT</td>
     <td>https://github.com/thatcoolguy/gridless-boilerplate.git</td>
 </tr>
+<tr>
+    <td>Wirefy</td>
+    <td>HTML5 (Responsive)</td>
+    <td>Apache-2.0</td>
+    <td>https://github.com/cjdsie/wirefy</td>
+</tr>
 </tbody>
 </table>
 
