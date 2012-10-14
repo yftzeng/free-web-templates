@@ -114,6 +114,12 @@
     <td>Apache-2.0</td>
     <td>https://github.com/cjdsie/wirefy</td>
 </tr>
+<tr>
+    <td>Kube Framework</td>
+    <td>HTML5 (Responsive)</td>
+    <td>Absolutely free for personal or commercial use</td>
+    <td>http://imperavi.com/kube/</td>
+</tr>
 </tbody>
 </table>
 
