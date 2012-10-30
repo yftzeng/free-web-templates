@@ -120,6 +120,12 @@
     <td>Absolutely free for personal or commercial use</td>
     <td>http://imperavi.com/kube/</td>
 </tr>
+<tr>
+    <td>Base</td>
+    <td>HTML5 (Responsive)</td>
+    <td>MIT</td>
+    <td>https://github.com/matthewhartman/base</td>
+</tr>
 </tbody>
 </table>
 
