@@ -135,8 +135,14 @@
 <tr>
     <td>Toast CSS Framework</td>
     <td>CSS (Responsive)</td>
-    <td>Toast is licensed under the ☺ license. (http://licence.visualidiot.com/)</td>
+    <td>☺ license. (http://licence.visualidiot.com/)</td>
     <td>https://github.com/daneden/Toast</td>
+</tr>
+<tr>
+    <td>Bourbon Neat</td>
+    <td>SASS/Rails (Responsive)</td>
+    <td>MIT License</td>
+    <td>https://github.com/thoughtbot/neat</td>
 </tr>
 </tbody>
 </table>
