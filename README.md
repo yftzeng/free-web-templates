@@ -132,6 +132,12 @@
     <td>GPL or MIT</td>
     <td>http://titanthemes.com/titan-framework-a-css-framework-for-responsive-web-designs</td>
 </tr>
+<tr>
+    <td>Toast CSS Framework</td>
+    <td>CSS (Responsive)</td>
+    <td>Toast is licensed under the ☺ license. (http://licence.visualidiot.com/)</td>
+    <td>https://github.com/daneden/Toast</td>
+</tr>
 </tbody>
 </table>
 
