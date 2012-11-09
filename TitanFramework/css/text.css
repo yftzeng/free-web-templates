@@ -1,0 +1,34 @@
+/* =============================================================================
+   Titan Framework - inspired from http://960.gs
+   Learn more ~ http://titanthemes.com/
+
+   Licensed under GPL and MIT.
+   ========================================================================== */
+
+/* =============================================================================
+   Basic HTML
+   ========================================================================== */
+
+body { font: 12px/1.5 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif; }
+pre, code { font-family: 'DejaVu Sans Mono', Menlo, Consolas, monospace; }
+hr { border: 0 #ccc solid; border-top-width: 1px; clear: both; height: 0; }
+
+/* =============================================================================
+   Headings
+   ========================================================================== */
+h1 { font-size: 36px; }
+h2 { font-size: 24px; }
+h3 { font-size: 18px; }
+h4 { font-size: 16px; }
+h5 { font-size: 14px; }
+h6 { font-size: 12px; }
+
+/* =============================================================================
+   Spacing
+   ========================================================================== */
+ol { list-style: decimal; }
+ul { list-style: disc; }
+li { margin-left: 30px; }
+p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset, figure {
+  margin-bottom: 20px;
+}

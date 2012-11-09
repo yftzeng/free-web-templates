@@ -126,6 +126,12 @@
     <td>MIT</td>
     <td>https://github.com/matthewhartman/base</td>
 </tr>
+<tr>
+    <td>Titan Framework</td>
+    <td>CSS (Responsive)</td>
+    <td>GPL or MIT</td>
+    <td>http://titanthemes.com/titan-framework-a-css-framework-for-responsive-web-designs</td>
+</tr>
 </tbody>
 </table>
 

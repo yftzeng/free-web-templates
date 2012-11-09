@@ -1,0 +1,501 @@
+/* =============================================================================
+   Titan Framework 
+   Learn more ~ http://titanthemes.com/
+
+   Licensed under GPL and MIT.
+   ========================================================================== */
+
+/* =============================================================================
+   Table of contents 
+   
+   0. General Settings
+   1. Base Grid (1024px width screens)
+   2. 1280px width 
+   3. 1360px width
+   4. 1440px width
+   5. 1600px width
+   6. 1680px width
+   7. 1920px width
+   8. Tablet (Portrait)
+   9. Mobile (Portrait)
+   10. Mobile (Landscape)
+   11. Margins Adjust Also
+   12. Clearing
+   
+   ========================================================================== */
+   
+/* =============================================================================
+   General Settings
+   ========================================================================== */ 
+   
+body { width: 100%; }
+   
+/* =============================================================================
+   Container
+   ========================================================================== */ 
+
+.container_12 { margin-left: auto;  margin-right: auto; }
+	
+/* =============================================================================
+   Grid >> Global 
+   ========================================================================== */ 
+
+.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9,
+.grid_10, .grid_11, .grid_12 {
+  display: inline;
+  float: left;
+}
+
+
+/* =============================================================================
+   Grid >> Children (Alpha ~ First, Omega ~ Last)
+   ========================================================================== */ 
+
+.alpha {
+  margin-left: 0;
+}
+
+.omega {
+  margin-right: 0;
+}
+
+/* =============================================================================
+   1. Base Grid
+   ========================================================================== */ 
+   
+.container_12 { width: 960px; }   
+.container_12 .grid_1 { width: 60px; }
+.container_12 .grid_2 { width: 140px; }
+.container_12 .grid_3 { width: 220px; }
+.container_12 .grid_4 { width: 300px; }
+.container_12 .grid_5 { width: 380px; }
+.container_12 .grid_6 { width: 460px; }
+.container_12 .grid_7 { width: 540px; }
+.container_12 .grid_8 { width: 620px; }
+.container_12 .grid_9 { width: 700px; }
+.container_12 .grid_10 { width: 780px;  }
+.container_12 .grid_11 { width: 860px;  }
+.container_12 .grid_12 { width: 940px; }
+
+
+/* `Offset Extra Space >> 16 Columns
+-------------------------------------------------------------------------------*/
+
+.container_12 .offset_1 { padding-left: 80px; }
+.container_12 .offset_2 { padding-left: 160px; }
+.container_12 .offset_3 { padding-left: 240px; }
+.container_12 .offset_4 { padding-left: 320px;  }
+.container_12 .offset_5 { padding-left: 400px; }
+.container_12 .offset_6 { padding-left: 480px; }
+.container_12 .offset_7 { padding-left: 560px; }
+.container_12 .offset_8 { padding-left: 640px; }
+.container_12 .offset_9 { padding-left: 720px; }
+.container_12 .offset_10 { padding-left: 800px; }
+.container_12 .offset_11 { padding-left: 880px; }
+
+
+/* =============================================================================
+   2. 1280px width 
+   ========================================================================== */ 
+@media only screen and (min-width: 1260px) and (max-width: 1331px) {
+	   
+.container_12 { width: 1260px;  }   
+.container_12 .grid_1 { width: 85px;  }
+.container_12 .grid_2 { width: 190px; }
+.container_12 .grid_3 { width: 295px; }
+.container_12 .grid_4 { width: 400px; }
+.container_12 .grid_5 { width: 505px; }
+.container_12 .grid_6 { width: 610px; }
+.container_12 .grid_7 { width: 715px; }
+.container_12 .grid_8 { width: 820px; }
+.container_12 .grid_9 { width: 925px; }
+.container_12 .grid_10 { width: 1030px; }
+.container_12 .grid_11 { width: 1135px; }
+.container_12 .grid_12 { width: 1240px; }
+
+/* `Offset Extra Space >> 12 Columns
+-------------------------------------------------------------------------------*/
+
+.container_12 .offset_1 { padding-left: 105px;  }
+.container_12 .offset_2 { padding-left: 210px;}
+.container_12 .offset_3 { padding-left: 305px; }
+.container_12 .offset_4 { padding-left: 420px; }
+.container_12 .offset_5 { padding-left: 525px; }
+.container_12 .offset_6 { padding-left: 630px; }
+.container_12 .offset_7 { padding-left: 735px; }
+.container_12 .offset_8 { padding-left: 840px; }
+.container_12 .offset_9 { padding-left: 945px; }
+.container_12 .offset_10 { padding-left: 1050px; }
+.container_12 .offset_11 { padding-left: 1155px; }
+
+
+}
+
+/* =============================================================================
+   3. 1360px width 
+   ========================================================================== */ 
+@media only screen and (min-width: 1332px) and (max-width: 1415px) {
+	   
+.container_12 { width: 1332px;  }   
+.container_12 .grid_1 { width: 91px;  }
+.container_12 .grid_2 { width: 202px; }
+.container_12 .grid_3 { width: 313px;  }
+.container_12 .grid_4 { width: 424px; }
+.container_12 .grid_5 { width: 535px; }
+.container_12 .grid_6 { width: 646px; }
+.container_12 .grid_7 { width: 757px; }
+.container_12 .grid_8 { width: 868px; }
+.container_12 .grid_9 { width: 979px; }
+.container_12 .grid_10 { width: 1090px; }
+.container_12 .grid_11 { width: 1201px; }
+.container_12 .grid_12 { width: 1312px; }
+
+
+/* `Offset Extra Space >> 12 Columns
+-------------------------------------------------------------------------------*/
+
+.container_12 .offset_1 { padding-left: 111px; }
+.container_12 .offset_2 { padding-left: 222px; }
+.container_12 .offset_3 { padding-left: 333px; }
+.container_12 .offset_4 { padding-left: 444px; }
+.container_12 .offset_5 { padding-left: 555px; }
+.container_12 .offset_6 { padding-left: 666px; }
+.container_12 .offset_7 { padding-left: 777px; }
+.container_12 .offset_8 { padding-left: 888px; }
+.container_12 .offset_9 { padding-left: 999px; }
+.container_12 .offset_10 { padding-left: 1110px; }
+.container_12 .offset_11 { padding-left: 1221x; }
+
+}
+/* =============================================================================
+   4. 1440px width 
+   ========================================================================== */ 
+@media only screen and (min-width: 1416px) and (max-width: 1571px) {
+	   
+.container_12 { width: 1416px; }   
+.container_12 .grid_1 { width: 88px; }
+.container_12 .grid_2 { width: 206px; }
+.container_12 .grid_3 { width: 324px; }
+.container_12 .grid_4 { width: 442px; }
+.container_12 .grid_5 { width: 560px; }
+.container_12 .grid_6 { width: 678px; }
+.container_12 .grid_7 { width: 796px; }
+.container_12 .grid_8 { width: 914px; }
+.container_12 .grid_9 { width: 1032px; }
+.container_12 .grid_10 { width: 1150px; }
+.container_12 .grid_11 { width: 1268px; }
+.container_12 .grid_12 { width: 1386px; }
+
+/* `Offset Extra Space >> 12 Columns
+-------------------------------------------------------------------------------*/
+
+.container_12 .offset_1 { padding-left: 118px; }
+.container_12 .offset_2 { padding-left: 236px; }
+.container_12 .offset_3 { padding-left: 354px;}
+.container_12 .offset_4 { padding-left: 472px;}
+.container_12 .offset_5 { padding-left: 590px;}
+.container_12 .offset_6 { padding-left: 708px; }
+.container_12 .offset_7 { padding-left: 826px;}
+.container_12 .offset_8 { padding-left: 944px; }
+.container_12 .offset_9 { padding-left: 1062px; }
+.container_12 .offset_10 { padding-left: 1180px;}
+.container_12 .offset_11 { padding-left: 1298px;}
+
+}
+
+/* =============================================================================
+   5. 1600px width 
+   ========================================================================== */ 
+@media only screen and (min-width: 1572px) and (max-width: 1656px) {
+	   
+.container_12 { width: 1572px; }   
+.container_12 .grid_1 { width: 101px; }
+.container_12 .grid_2 { width: 232px; }
+.container_12 .grid_3 { width: 363px; }
+.container_12 .grid_4 { width: 494px; }
+.container_12 .grid_5 { width: 625px; }
+.container_12 .grid_6 { width: 756px; }
+.container_12 .grid_7 { width: 887px; }
+.container_12 .grid_8 { width: 1018px;}
+.container_12 .grid_9 { width: 1149px; }
+.container_12 .grid_10 { width: 1280px; }
+.container_12 .grid_11 { width: 1411px; }
+.container_12 .grid_12 { width: 1542px; }
+
+/* `offset Extra Space >> 12 Columns
+-------------------------------------------------------------------------------*/
+
+.container_12 .offset_1 { padding-left: 131px; }
+.container_12 .offset_2 { padding-left: 262px; }
+.container_12 .offset_3 { padding-left: 393px; }
+.container_12 .offset_4 { padding-left: 524px; }
+.container_12 .offset_5 { padding-left: 655px; }
+.container_12 .offset_6 { padding-left: 786px; }
+.container_12 .offset_7 { padding-left: 917px;}
+.container_12 .offset_8 { padding-left: 1048px; }
+.container_12 .offset_9 { padding-left: 1179px;}
+.container_12 .offset_10 { padding-left: 1310px;}
+.container_12 .offset_11 { padding-left: 1441px;}
+
+}
+
+/* =============================================================================
+   6. 1680px width 
+   ========================================================================== */ 
+@media only screen and (min-width: 1656px) and (max-width: 1895px) {
+	   
+.container_12 { width: 1656px;  }   
+.container_12 .grid_1 { width: 108px; }
+.container_12 .grid_2 { width: 246px; }
+.container_12 .grid_3 { width: 384px; }
+.container_12 .grid_4 { width: 522px; }
+.container_12 .grid_5 { width: 660px;}
+.container_12 .grid_6 { width: 798px; }
+.container_12 .grid_7 { width: 936px; }
+.container_12 .grid_8 { width: 1074px; }
+.container_12 .grid_9 { width: 1212px; }
+.container_12 .grid_10 { width: 1350px; }
+.container_12 .grid_11 { width: 1488px; }
+.container_12 .grid_12 { width: 1626px; }
+
+/* `offset Extra Space >> 12 Columns
+-------------------------------------------------------------------------------*/
+
+.container_12 .offset_1 { padding-left: 138px;  }
+.container_12 .offset_2 { padding-left: 276px; }
+.container_12 .offset_3 { padding-left: 414px; }
+.container_12 .offset_4 { padding-left: 552px; }
+.container_12 .offset_5 { padding-left: 690px; }
+.container_12 .offset_6 { padding-left: 828px;}
+.container_12 .offset_7 { padding-left: 966px; }
+.container_12 .offset_8 { padding-left: 1104px; }
+.container_12 .offset_9 { padding-left: 1242px; }
+.container_12 .offset_10 { padding-left: 1380px; }
+.container_12 .offset_11 { padding-left: 1518px;}
+
+
+}
+
+/* =============================================================================
+   7. 1920px width 
+   ========================================================================== */ 
+@media only screen and (min-width: 1896px) {
+	   
+.container_12 { width: 1896px;  }   
+.container_12 .grid_1 { width: 118px;  }
+.container_12 .grid_2 { width: 276px; }
+.container_12 .grid_3 { width: 434px; }
+.container_12 .grid_4 { width: 592px; }
+.container_12 .grid_5 { width: 750px; }
+.container_12 .grid_6 { width: 908px; }
+.container_12 .grid_7 { width: 1066px; }
+.container_12 .grid_8 { width: 1224px;}
+.container_12 .grid_9 { width: 1382px; }
+.container_12 .grid_10 { width: 1540px; }
+.container_12 .grid_11 { width: 1698px; }
+.container_12 .grid_12 { width: 1856px;}
+
+/* `offset Extra Space >> 12 Columns
+-------------------------------------------------------------------------------*/
+
+.container_12 .offset_1 { padding-left: 158px;  }
+.container_12 .offset_2 { padding-left: 316px; }
+.container_12 .offset_3 { padding-left: 474px; }
+.container_12 .offset_4 { padding-left: 632px; }
+.container_12 .offset_5 { padding-left: 948px; }
+.container_12 .offset_6 { padding-left: 1106px; }
+.container_12 .offset_7 { padding-left: 1264px; }
+.container_12 .offset_8 { padding-left: 1422px; }
+.container_12 .offset_9 { padding-left: 1580px; }
+.container_12 .offset_10 { padding-left: 1738px; }
+.container_12 .offset_11 { padding-left: 1896px; }
+
+}
+
+/* =============================================================================
+   8. Tablet (Portrait)
+   ========================================================================== */ 
+/* For 768px width  */   
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	   
+.container_12 { width: 768px; }   
+.container_12 .grid_1 { width: 28px;  }
+.container_12 .grid_2 { width: 76px; }
+.container_12 .grid_3 { width: 124px; }
+.container_12 .grid_4 { width: 172px; }
+.container_12 .grid_5 { width: 220px; }
+.container_12 .grid_6 { width: 268px; }
+.container_12 .grid_7 { width: 316px; }
+.container_12 .grid_8 { width: 364px; }
+.container_12 .grid_9 { width: 412px; }
+.container_12 .grid_10 { width: 460px; }
+.container_12 .grid_11 { width: 508px; }
+.container_12 .grid_12 { width: 556px; }
+
+/* `offset Extra Space >> 12 Columns
+-------------------------------------------------------------------------------*/
+
+.container_12 .offset_1 { padding-left: 48px;  }
+.container_12 .offset_2 { padding-left: 96px; }
+.container_12 .offset_3 { padding-left: 144px; }
+.container_12 .offset_4 { padding-left: 192px; }
+.container_12 .offset_5 { padding-left: 240px;  }
+.container_12 .offset_6 { padding-left: 288px; }
+.container_12 .offset_7 { padding-left: 336px; }
+.container_12 .offset_8 { padding-left: 384px; }
+.container_12 .offset_9 { padding-left: 432px; }
+.container_12 .offset_10 { padding-left: 480px; }
+.container_12 .offset_11 { padding-left: 528px; }
+
+}
+
+/* =============================================================================
+   9. Mobile (Portrait)
+   ========================================================================== */ 
+/* For 320px width  */
+
+@media only screen and (max-width: 767px) {
+	   
+.container_12 {  width: 300px; }   
+.container_12 .grid_1, .container_12 .grid_2, .container_12 .grid_3, .container_12 .grid_4,
+.container_12 .grid_5, .container_12 .grid_6, .container_12 .grid_7, .container_12 .grid_8,
+.container_12 .grid_9, .container_12 .grid_10, .container_12 .grid_11, .container_12 .grid_12 { 
+width: 300px;  
+}
+
+/* `offset Extra Space >> 12 Columns
+-------------------------------------------------------------------------------*/
+
+.container_12 .offset_1,
+.container_12 .offset_2,
+.container_12 .offset_3,
+.container_12 .offset_4,
+.container_12 .offset_5,
+.container_12 .offset_6,
+.container_12 .offset_7,
+.container_12 .offset_8,
+.container_12 .offset_9,
+.container_12 .offset_10,
+.container_12 .offset_11 { 
+padding-left: 0; }
+
+
+}
+
+/* =============================================================================
+   10. Mobile (Landscape)
+   ========================================================================== */ 
+/* For 480px width  */   
+   
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	   
+.container_12 { width: 420px; }   
+.container_12 .grid_1, .container_12 .grid_2, .container_12 .grid_3, .container_12 .grid_4,
+.container_12 .grid_5, .container_12 .grid_6, .container_12 .grid_7, .container_12 .grid_8,
+.container_12 .grid_9, .container_12 .grid_10, .container_12 .grid_11, .container_12 .grid_12 { 
+width: 420px;  
+}
+
+/* `offset Extra Space >> 12 Columns
+-------------------------------------------------------------------------------*/
+
+.container_12 .offset_1,
+.container_12 .offset_2,
+.container_12 .offset_3,
+.container_12 .offset_4,
+.container_12 .offset_5,
+.container_12 .offset_6,
+.container_12 .offset_7,
+.container_12 .offset_8,
+.container_12 .offset_9,
+.container_12 .offset_10,
+.container_12 .offset_11,
+{ padding-left: 0; }
+
+
+
+}
+
+/* =============================================================================
+   12. Margins Adjust Also
+   ========================================================================== */ 
+
+@media only screen and (max-width: 767px) {
+	   
+.container_12 {  width: 300px; }   
+.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8,
+.grid_9, .grid_10, .grid_11, .grid_12  { 
+margin-right: 0px; margin-left: 0px;   
+}
+
+}   
+
+@media only screen and (min-width: 768px) and (max-width: 1407px) {
+.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8,
+.grid_9, .grid_10, .grid_11, .grid_12 {
+  margin-left: 10px;
+  margin-right: 10px;
+}	
+}
+
+@media only screen and (min-width: 1408px) and (max-width: 1887px) {
+.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8,
+.grid_9, .grid_10, .grid_11, .grid_12 {
+  margin-left: 15px;
+  margin-right: 15px;
+}	
+}
+
+@media only screen and (min-width: 1888px) {
+.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8,
+.grid_9, .grid_10, .grid_11, .grid_12 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+}
+
+/* =============================================================================
+   11. Clearing
+   ========================================================================== */ 
+
+/* http://sonspring.com/journal/clearing-floats */
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+/* http://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
+
+.clearfix:before,
+.clearfix:after,
+.container_12:before,
+.container_12:after {
+  content: '.';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0;
+}
+
+.clearfix:after,
+.container_12:after {
+  clear: both;
+}
+
+/*
+  The following zoom:1 rule is specifically for IE6 + IE7.
+  Move to separate stylesheet if invalid CSS is a problem.
+*/
+
+.clearfix,
+.container_12 {
+  zoom: 1;
+}

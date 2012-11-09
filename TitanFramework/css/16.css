@@ -1,0 +1,580 @@
+/* =============================================================================
+   Titan Framework 
+   Learn more ~ http://titanthemes.com/
+
+   Licensed under GPL and MIT.
+   ========================================================================== */
+
+/* =============================================================================
+   Table of contents 
+   
+   0. General Settings
+   1. Base Grid (1024px width screens)
+   2. 1280px width 
+   3. 1360px width
+   4. 1440px width
+   5. 1600px width
+   6. 1680px width
+   7. 1920px width
+   8. Tablet (Portrait)
+   9. Mobile (Portrait)
+   10. Mobile (Landscape)
+   11. Margins Adjust Also
+   12. Clearing
+   
+   ========================================================================== */
+   
+/* =============================================================================
+   General Settings
+   ========================================================================== */ 
+   
+body { width: 100%; }
+   
+/* =============================================================================
+   Container
+   ========================================================================== */ 
+
+.container_16 { margin-left: auto;  margin-right: auto; }
+	
+/* =============================================================================
+   Grid >> Global 
+   ========================================================================== */ 
+
+.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9,
+.grid_10, .grid_11, .grid_12, .grid_13, .grid_14, .grid_15, .grid_16 {
+  display: inline;
+  float: left;
+}
+
+/* =============================================================================
+   Grid >> Children (Alpha ~ First, Omega ~ Last)
+   ========================================================================== */ 
+
+.alpha {
+  margin-left: 0;
+}
+
+.omega {
+  margin-right: 0;
+}
+
+/* =============================================================================
+   1. Base Grid
+   ========================================================================== */ 
+   
+.container_16 { width: 960px; }   
+.container_16 .grid_1 { width: 40px; }
+.container_16 .grid_2 { width: 100px; }
+.container_16 .grid_3 { width: 160px; }
+.container_16 .grid_4 { width: 220px; }
+.container_16 .grid_5 { width: 280px; }
+.container_16 .grid_6 { width: 340px; }
+.container_16 .grid_7 { width: 400px; }
+.container_16 .grid_8 { width: 460px; }
+.container_16 .grid_9 { width: 520px; }
+.container_16 .grid_10 { width: 580px;  }
+.container_16 .grid_11 { width: 640px;  }
+.container_16 .grid_12 { width: 700px; }
+.container_16 .grid_13 { width: 760px; }
+.container_16 .grid_14 { width: 820px; }
+.container_16 .grid_15 { width: 880px; }
+.container_16 .grid_16 { width: 940px; }
+
+/* `Offset Extra Space >> 16 Columns
+-------------------------------------------------------------------------------*/
+
+.container_16 .offset_1 { padding-left: 60px; }
+.container_16 .offset_2 { padding-left: 120px; }
+.container_16 .offset_3 { padding-left: 180px; }
+.container_16 .offset_4 { padding-left: 240px;  }
+.container_16 .offset_5 { padding-left: 300px; }
+.container_16 .offset_6 { padding-left: 360px; }
+.container_16 .offset_7 { padding-left: 420px; }
+.container_16 .offset_8 { padding-left: 480px; }
+.container_16 .offset_9 { padding-left: 540px; }
+.container_16 .offset_10 { padding-left: 600px; }
+.container_16 .offset_11 { padding-left: 660px; }
+.container_16 .offset_12 { padding-left: 720px;}
+.container_16 .offset_13 { padding-left: 780px; }
+.container_16 .offset_14 { padding-left: 840px; }
+.container_16 .offset_14 { padding-left: 900px; }
+
+
+/* =============================================================================
+   2. 1280px width 
+   ========================================================================== */ 
+@media only screen and (min-width: 1248px) and (max-width: 1327px) {
+	   
+.container_16 { width: 1248px;  }   
+.container_16 .grid_1 { width: 58px;  }
+.container_16 .grid_2 { width: 136px; }
+.container_16 .grid_3 { width: 214px; }
+.container_16 .grid_4 { width: 292px; }
+.container_16 .grid_5 { width: 370px; }
+.container_16 .grid_6 { width: 448px; }
+.container_16 .grid_7 { width: 526px; }
+.container_16 .grid_8 { width: 604px; }
+.container_16 .grid_9 { width: 682px; }
+.container_16 .grid_10 { width: 760px; }
+.container_16 .grid_11 { width: 838px; }
+.container_16 .grid_12 { width: 916px; }
+.container_16 .grid_13 { width: 994px; }
+.container_16 .grid_14 { width: 1072px; }
+.container_16 .grid_15 { width: 1150px; }
+.container_16 .grid_16 { width: 1228px; }
+
+/* `Offset Extra Space >> 16 Columns
+-------------------------------------------------------------------------------*/
+
+.container_16 .offset_1 { padding-left: 78px;  }
+.container_16 .offset_2 { padding-left: 156px;}
+.container_16 .offset_3 { padding-left: 234px; }
+.container_16 .offset_4 { padding-left: 312px; }
+.container_16 .offset_5 { padding-left: 390px; }
+.container_16 .offset_6 { padding-left: 468px; }
+.container_16 .offset_7 { padding-left: 546px; }
+.container_16 .offset_8 { padding-left: 634px; }
+.container_16 .offset_9 { padding-left: 702px; }
+.container_16 .offset_10 { padding-left: 780px; }
+.container_16 .offset_11 { padding-left: 858px; }
+.container_16 .offset_12 { padding-left: 936px; }
+.container_16 .offset_13 { padding-left: 1014px; }
+.container_16 .offset_14 { padding-left: 1092px; }
+.container_16 .offset_15 { padding-left: 1170px; }
+
+}
+
+/* =============================================================================
+   3. 1360px width 
+   ========================================================================== */ 
+@media only screen and (min-width: 1328px) and (max-width: 1407px) {
+	   
+.container_16 { width: 1328px;  }   
+.container_16 .grid_1 { width: 63px;  }
+.container_16 .grid_2 { width: 146px; }
+.container_16 .grid_3 { width: 229px;  }
+.container_16 .grid_4 { width: 312px; }
+.container_16 .grid_5 { width: 395px; }
+.container_16 .grid_6 { width: 478px; }
+.container_16 .grid_7 { width: 561px; }
+.container_16 .grid_8 { width: 644px; }
+.container_16 .grid_9 { width: 727px; }
+.container_16 .grid_10 { width: 810px; }
+.container_16 .grid_11 { width: 893px; }
+.container_16 .grid_12 { width: 976px; }
+.container_16 .grid_13 { width: 1059px; }
+.container_16 .grid_14 { width: 1142px; }
+.container_16 .grid_15 { width: 1225px; }
+.container_16 .grid_16 { width: 1308px; }
+
+/* `Offset Extra Space >> 16 Columns
+-------------------------------------------------------------------------------*/
+
+.container_16 .offset_1 { padding-left: 83px; }
+.container_16 .offset_2 { padding-left: 166px; }
+.container_16 .offset_3 { padding-left: 249px; }
+.container_16 .offset_4 { padding-left: 332px; }
+.container_16 .offset_5 { padding-left: 415px; }
+.container_16 .offset_6 { padding-left: 498px; }
+.container_16 .offset_7 { padding-left: 581px; }
+.container_16 .offset_8 { padding-left: 664px; }
+.container_16 .offset_9 { padding-left: 747px; }
+.container_16 .offset_10 { padding-left: 830px; }
+.container_16 .offset_11 { padding-left: 913px; }
+.container_16 .offset_12 { padding-left: 996px; }
+.container_16 .offset_13 { padding-left: 1079px; }
+.container_16 .offset_14 { padding-left: 1162px; }
+.container_16 .offset_15 { padding-left: 1245px; }
+
+}
+/* =============================================================================
+   4. 1440px width 
+   ========================================================================== */ 
+@media only screen and (min-width: 1408px) and (max-width: 1567px) {
+	   
+.container_16 { width: 1408px; }   
+.container_16 .grid_1 { width: 58px; }
+.container_16 .grid_2 { width: 146px; }
+.container_16 .grid_3 { width: 234px; }
+.container_16 .grid_4 { width: 322px; }
+.container_16 .grid_5 { width: 410px; }
+.container_16 .grid_6 { width: 498px; }
+.container_16 .grid_7 { width: 586px; }
+.container_16 .grid_8 { width: 674px; }
+.container_16 .grid_9 { width: 762px; }
+.container_16 .grid_10 { width: 850px; }
+.container_16 .grid_11 { width: 938px; }
+.container_16 .grid_12 { width: 1026px; }
+.container_16 .grid_13 { width: 1114px; }
+.container_16 .grid_14 { width: 1202px; }
+.container_16 .grid_15 { width: 1290px; }
+.container_16 .grid_16 { width: 1378px; }
+
+/* `offset Extra Space >> 16 Columns
+-------------------------------------------------------------------------------*/
+
+.container_16 .offset_1 { padding-left: 88px; }
+.container_16 .offset_2 { padding-left: 176px; }
+.container_16 .offset_3 { padding-left: 264px;}
+.container_16 .offset_4 { padding-left: 352px;}
+.container_16 .offset_5 { padding-left: 440px;}
+.container_16 .offset_6 { padding-left: 528px; }
+.container_16 .offset_7 { padding-left: 616px;}
+.container_16 .offset_8 { padding-left: 704px; }
+.container_16 .offset_9 { padding-left: 792px; }
+.container_16 .offset_10 { padding-left: 880px;}
+.container_16 .offset_11 { padding-left: 968px;}
+.container_16 .offset_12 { padding-left: 1056px;}
+.container_16 .offset_13 { padding-left: 1144px; }
+.container_16 .offset_14 { padding-left: 1232px;}
+.container_16 .offset_15 { padding-left: 1320px;}
+
+
+}
+
+/* =============================================================================
+   5. 1600px width 
+   ========================================================================== */ 
+@media only screen and (min-width: 1568px) and (max-width: 1647px) {
+	   
+.container_16 { width: 1568px; }   
+.container_16 .grid_1 { width: 68px; }
+.container_16 .grid_2 { width: 166px; }
+.container_16 .grid_3 { width: 264px; }
+.container_16 .grid_4 { width: 362px; }
+.container_16 .grid_5 { width: 460px; }
+.container_16 .grid_6 { width: 558px; }
+.container_16 .grid_7 { width: 656px; }
+.container_16 .grid_8 { width: 754px;}
+.container_16 .grid_9 { width: 852px; }
+.container_16 .grid_10 { width: 950px; }
+.container_16 .grid_11 { width: 1048px; }
+.container_16 .grid_12 { width: 1146px; }
+.container_16 .grid_13 { width: 1244px; }
+.container_16 .grid_14 { width: 1342px; }
+.container_16 .grid_15 { width: 1440px; }
+.container_16 .grid_16 { width: 1538px; }
+
+/* `offset Extra Space >> 16 Columns
+-------------------------------------------------------------------------------*/
+
+.container_16 .offset_1 { padding-left: 98px; }
+.container_16 .offset_2 { padding-left: 196px; }
+.container_16 .offset_3 { padding-left: 294px; }
+.container_16 .offset_4 { padding-left: 392px; }
+.container_16 .offset_5 { padding-left: 490px; }
+.container_16 .offset_6 { padding-left: 588px; }
+.container_16 .offset_7 { padding-left: 686px;}
+.container_16 .offset_8 { padding-left: 784px; }
+.container_16 .offset_9 { padding-left: 882px;}
+.container_16 .offset_10 { padding-left: 980px;}
+.container_16 .offset_11 { padding-left: 1078px;}
+.container_16 .offset_12 { padding-left: 1176px; }
+.container_16 .offset_13 { padding-left: 1274px;}
+.container_16 .offset_14 { padding-left: 1372px; }
+.container_16 .offset_15 { padding-left: 1470px; }
+
+}
+
+/* =============================================================================
+   6. 1680px width 
+   ========================================================================== */ 
+@media only screen and (min-width: 1648px) and (max-width: 1887px) {
+	   
+.container_16 { width: 1648px;  }   
+.container_16 .grid_1 { width: 73px; }
+.container_16 .grid_2 { width: 176px; }
+.container_16 .grid_3 { width: 279px; }
+.container_16 .grid_4 { width: 382px; }
+.container_16 .grid_5 { width: 485px;}
+.container_16 .grid_6 { width: 588px; }
+.container_16 .grid_7 { width: 691px; }
+.container_16 .grid_8 { width: 794px; }
+.container_16 .grid_9 { width: 897px; }
+.container_16 .grid_10 { width: 1000px; }
+.container_16 .grid_11 { width: 1103px; }
+.container_16 .grid_12 { width: 1206px; }
+.container_16 .grid_13 { width: 1309px; }
+.container_16 .grid_14 { width: 1412px; }
+.container_16 .grid_15 { width: 1515px; }
+.container_16 .grid_16 { width: 1618px; }
+
+/* `offset Extra Space >> 16 Columns
+-------------------------------------------------------------------------------*/
+
+.container_16 .offset_1 { padding-left: 103px;  }
+.container_16 .offset_2 { padding-left: 206px; }
+.container_16 .offset_3 { padding-left: 309px; }
+.container_16 .offset_4 { padding-left: 412px; }
+.container_16 .offset_5 { padding-left: 515px; }
+.container_16 .offset_6 { padding-left: 618px;}
+.container_16 .offset_7 { padding-left: 721px; }
+.container_16 .offset_8 { padding-left: 824px; }
+.container_16 .offset_9 { padding-left: 927px; }
+.container_16 .offset_10 { padding-left: 1030px; }
+.container_16 .offset_11 { padding-left: 1133px;}
+.container_16 .offset_12 { padding-left: 1236px; }
+.container_16 .offset_13 { padding-left: 1339px; }
+.container_16 .offset_14 { padding-left: 1442px;  }
+.container_16 .offset_15 { padding-left: 1545px;  }
+
+
+}
+
+/* =============================================================================
+   7. 1920px width 
+   ========================================================================== */ 
+@media only screen and (min-width: 1888px) {
+	   
+.container_16 { width: 1888px;  }   
+.container_16 .grid_1 { width: 78px;  }
+.container_16 .grid_2 { width: 196px; }
+.container_16 .grid_3 { width: 314px; }
+.container_16 .grid_4 { width: 432px; }
+.container_16 .grid_5 { width: 550px; }
+.container_16 .grid_6 { width: 668px; }
+.container_16 .grid_7 { width: 786px; }
+.container_16 .grid_8 { width: 904px;}
+.container_16 .grid_9 { width: 1022px; }
+.container_16 .grid_10 { width: 1140px; }
+.container_16 .grid_11 { width: 1258px; }
+.container_16 .grid_12 { width: 1376px;}
+.container_16 .grid_13 { width: 1494px; }
+.container_16 .grid_14 { width: 1612px; }
+.container_16 .grid_15 { width: 1730px; }
+.container_16 .grid_16 { width: 1848px;}
+
+/* `offset Extra Space >> 16 Columns
+-------------------------------------------------------------------------------*/
+
+.container_16 .offset_1 { padding-left: 118px;  }
+.container_16 .offset_2 { padding-left: 236px; }
+.container_16 .offset_3 { padding-left: 354px; }
+.container_16 .offset_4 { padding-left: 472px; }
+.container_16 .offset_5 { padding-left: 590px; }
+.container_16 .offset_6 { padding-left: 708px; }
+.container_16 .offset_7 { padding-left: 826px; }
+.container_16 .offset_8 { padding-left: 944px; }
+.container_16 .offset_9 { padding-left: 1062px; }
+.container_16 .offset_10 { padding-left: 1180px; }
+.container_16 .offset_11 { padding-left: 1298px; }
+.container_16 .offset_12 { padding-left: 1416px; }
+.container_16 .offset_13 { padding-left: 1534px; }
+.container_16 .offset_14 { padding-left: 1652px; }
+.container_16 .offset_15 { padding-left: 1740px; }
+
+
+
+}
+
+/* =============================================================================
+   8. Tablet (Portrait)
+   ========================================================================== */ 
+/* For 768px width  */   
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	   
+.container_16 { width: 768px; }   
+.container_16 .grid_1 { width: 28px;  }
+.container_16 .grid_2 { width: 76px; }
+.container_16 .grid_3 { width: 124px; }
+.container_16 .grid_4 { width: 172px; }
+.container_16 .grid_5 { width: 220px; }
+.container_16 .grid_6 { width: 268px; }
+.container_16 .grid_7 { width: 316px; }
+.container_16 .grid_8 { width: 364px;  }
+.container_16 .grid_9 { width: 412px; }
+.container_16 .grid_10 { width: 460px; }
+.container_16 .grid_11 { width: 508px; }
+.container_16 .grid_12 { width: 556px; }
+.container_16 .grid_13 { width: 604px; }
+.container_16 .grid_14 { width: 652px; }
+.container_16 .grid_15 { width: 700px; }
+.container_16 .grid_16 { width: 748px; }
+
+/* `offset Extra Space >> 16 Columns
+-------------------------------------------------------------------------------*/
+
+.container_16 .offset_1 { padding-left: 48px;  }
+.container_16 .offset_2 { padding-left: 96px; }
+.container_16 .offset_3 { padding-left: 144px; }
+.container_16 .offset_4 { padding-left: 192px; }
+.container_16 .offset_5 { padding-left: 240px;  }
+.container_16 .offset_6 { padding-left: 288px; }
+.container_16 .offset_7 { padding-left: 336px; }
+.container_16 .offset_8 { padding-left: 384px; }
+.container_16 .offset_9 { padding-left: 432px; }
+.container_16 .offset_10 { padding-left: 480px; }
+.container_16 .offset_11 { padding-left: 528px; }
+.container_16 .offset_12 { padding-left: 576px; }
+.container_16 .offset_13 { padding-left: 624px; }
+.container_16 .offset_14 { padding-left: 672px; }
+.container_16 .offset_15 { padding-left: 720px; }
+
+
+}
+
+/* =============================================================================
+   9. Mobile (Portrait)
+   ========================================================================== */ 
+/* For 320px width  */
+
+@media only screen and (max-width: 767px) {
+	   
+.container_16 {  width: 300px; }   
+.container_16 .grid_1, .container_16 .grid_2, .container_16 .grid_3, .container_16 .grid_4,
+.container_16 .grid_5, .container_16 .grid_6, .container_16 .grid_7, .container_16 .grid_8,
+.container_16 .grid_9, .container_16 .grid_10, .container_16 .grid_11, .container_16 .grid_12,
+.container_16 .grid_13, .container_16 .grid_14, .container_16 .grid_15, .container_16 .grid_16 { 
+width: 300px;  
+}
+
+/* `offset Extra Space >> 16 Columns
+-------------------------------------------------------------------------------*/
+
+.container_16 .offset_1,
+.container_16 .offset_2,
+.container_16 .offset_3,
+.container_16 .offset_4,
+.container_16 .offset_5,
+.container_16 .offset_6,
+.container_16 .offset_7,
+.container_16 .offset_8,
+.container_16 .offset_9,
+.container_16 .offset_10,
+.container_16 .offset_11,
+.container_16 .offset_12,
+.container_16 .offset_13,
+.container_16 .offset_14, 
+.container_16 .offset_15 { padding-left: 0; }
+
+
+}
+
+/* =============================================================================
+   10. Mobile (Landscape)
+   ========================================================================== */ 
+/* For 480px width  */   
+   
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	   
+.container_16 { width: 420px; }   
+.container_16 .grid_1, .container_16 .grid_2, .container_16 .grid_3, .container_16 .grid_4,
+.container_16 .grid_5, .container_16 .grid_6, .container_16 .grid_7, .container_16 .grid_8,
+.container_16 .grid_9, .container_16 .grid_10, .container_16 .grid_11, .container_16 .grid_12,
+.container_16 .grid_13, .container_16 .grid_14, .container_16 .grid_15, .container_16 .grid_16 { 
+width: 420px;  
+}
+
+/* `offset Extra Space >> 16 Columns
+-------------------------------------------------------------------------------*/
+
+.container_16 .offset_1,
+.container_16 .offset_2,
+.container_16 .offset_3,
+.container_16 .offset_4,
+.container_16 .offset_5,
+.container_16 .offset_6,
+.container_16 .offset_7,
+.container_16 .offset_8,
+.container_16 .offset_9,
+.container_16 .offset_10,
+.container_16 .offset_11,
+.container_16 .offset_12,
+.container_16 .offset_13,
+.container_16 .offset_14, 
+.container_16 .offset_15 { padding-left: 0; }
+
+
+
+}
+
+/* =============================================================================
+   12. Margins Adjust Also
+   ========================================================================== */ 
+
+@media only screen and (max-width: 767px) {
+	   
+.container_16 {  width: 300px; }   
+.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8,
+.grid_9, .grid_10, .grid_11, .grid_12, .grid_13, .grid_14, .grid_15, .grid_16  { 
+margin-right: 0px; margin-left: 0px;   
+}
+
+}   
+
+@media only screen and (min-width: 768px) and (max-width: 1407px) {
+.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8,
+.grid_9, .grid_10, .grid_11, .grid_12, .grid_13, .grid_14, .grid_15, .grid_16 {
+  margin-left: 10px;
+  margin-right: 10px;
+}	
+}
+
+@media only screen and (min-width: 1408px) and (max-width: 1887px) {
+.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8,
+.grid_9, .grid_10, .grid_11, .grid_12, .grid_13, .grid_14, .grid_15, .grid_16 {
+  margin-left: 15px;
+  margin-right: 15px;
+}	
+}
+
+@media only screen and (min-width: 1888px) {
+.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8,
+.grid_9, .grid_10, .grid_11, .grid_12, .grid_13, .grid_14, .grid_15, .grid_16 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+}
+
+/* =============================================================================
+   11. Clearing
+   ========================================================================== */ 
+
+/* http://sonspring.com/journal/clearing-floats */
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+/* http://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
+
+.clearfix:before,
+.clearfix:after,
+.container_16:before,
+.container_16:after {
+  content: '.';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0;
+}
+
+.clearfix:after,
+.container_16:after {
+  clear: both;
+}
+
+/*
+  The following zoom:1 rule is specifically for IE6 + IE7.
+  Move to separate stylesheet if invalid CSS is a problem.
+*/
+
+.clearfix,
+.container_16 {
+  zoom: 1;
+}
+   
+	
+	
+		
+	
+	  
+
