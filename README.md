@@ -150,6 +150,12 @@
     <td></td>
     <td>https://github.com/IronSummitMedia/startbootstrap/tree/master/templates</td>
 </tr>
+<tr>
+    <td>startup-demo</td>
+    <td>Mixed</td>
+    <td></td>
+    <td>https://github.com/designmodo/startup-demo</td>
+</tr>
 </tbody>
 </table>
 
