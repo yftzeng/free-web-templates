@@ -156,6 +156,18 @@
     <td></td>
     <td>https://github.com/designmodo/startup-demo</td>
 </tr>
+<tr>
+    <td>gentelella</td>
+    <td>Bootstrap</td>
+    <td>MIT License</td>
+    <td>https://github.com/puikinsh/gentelella</td>
+</tr>
+<tr>
+    <td>blur-admin</td>
+    <td>Bootstrap/Angular</td>
+    <td>MIT License</td>
+    <td>https://github.com/akveo/blur-admin</td>
+</tr>
 </tbody>
 </table>
 
