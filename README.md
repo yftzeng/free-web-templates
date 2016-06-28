@@ -168,6 +168,12 @@
     <td>MIT License</td>
     <td>https://github.com/akveo/blur-admin</td>
 </tr>
+<tr>
+    <td>vue-admin</td>
+    <td>Vue</td>
+    <td>MIT License</td>
+    <td>https://github.com/fundon/vue-admin</td>
+</tr>
 </tbody>
 </table>
 
