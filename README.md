@@ -174,6 +174,12 @@
     <td>MIT License</td>
     <td>https://github.com/fundon/vue-admin</td>
 </tr>
+<tr>
+    <td>freeboard</td>
+    <td>jQuery</td>
+    <td>MIT License</td>
+    <td>https://github.com/Freeboard/freeboard</td>
+</tr>
 </tbody>
 </table>
 
