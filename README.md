@@ -180,6 +180,12 @@
     <td>MIT License</td>
     <td>https://github.com/Freeboard/freeboard</td>
 </tr>
+<tr>
+    <td>hAdmin</td>
+    <td>bootstrap</td>
+    <td>?</td>
+    <td>https://github.com/fzninja/hAdmin</td>
+</tr>
 </tbody>
 </table>
 
