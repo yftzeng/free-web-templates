@@ -186,6 +186,12 @@
     <td>?</td>
     <td>https://github.com/fzninja/hAdmin</td>
 </tr>
+<tr>
+    <td>CoPilot</td>
+    <td>Vue.js</td>
+    <td>MIT</td>
+    <td>https://github.com/misterGF/CoPilot</td>
+</tr>
 </tbody>
 </table>
 
