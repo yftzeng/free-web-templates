@@ -192,6 +192,12 @@
     <td>MIT</td>
     <td>https://github.com/misterGF/CoPilot</td>
 </tr>
+<tr>
+    <td>modular-admin-html</td>
+    <td>Bootstrap</td>
+    <td>MIT</td>
+    <td>https://github.com/modularcode/modular-admin-html</td>
+</tr>
 </tbody>
 </table>
 
