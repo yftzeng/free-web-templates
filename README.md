@@ -198,6 +198,12 @@
     <td>MIT</td>
     <td>https://github.com/modularcode/modular-admin-html</td>
 </tr>
+<tr>
+    <td>vuestic-admin</td>
+    <td>Bootstrap / Vue</td>
+    <td>MIT</td>
+    <td>https://github.com/epicmaxco/vuestic-admin</td>
+</tr>
 </tbody>
 </table>
 
