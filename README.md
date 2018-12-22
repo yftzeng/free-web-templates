@@ -204,6 +204,12 @@
     <td>MIT</td>
     <td>https://github.com/epicmaxco/vuestic-admin</td>
 </tr>
+<tr>
+    <td>Dashboard UI Kit</td>
+    <td>Bootstrap</td>
+    <td>https://janlosert.com/store/licence.html</td>
+    <td>https://janlosert.com/store/dashboard-ui-kit-3.html</td>
+</tr>
 </tbody>
 </table>
 
